@@ -29,8 +29,10 @@ export default {
   },
   computed: {
     abetooInstance() {
-      console.log("yeet!")
-      return Abetoo.getInstance()
+      const abetooInstance = Abetoo.getInstance();
+      console.log('abetooInstance: ', abetooInstance);
+
+      return abetooInstance
     }
   }
 }

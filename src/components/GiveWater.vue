@@ -31,6 +31,7 @@ export default {
     console.log(this.URL);
     let keepGivingWater; //becomes a function later
 
+
     function triggerGiveWater() {
       self.giveWater();
     }
