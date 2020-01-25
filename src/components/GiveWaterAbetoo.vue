@@ -28,7 +28,6 @@ export default {
   },
   methods: {
     giveWater() {
-      console.log('give water.') //todo: throttle this method.
       
       this.abetooInstance.sendMessage(this.WemosAbetooId, "water", "-");
     }
@@ -40,7 +39,6 @@ export default {
     const instacne = this.abetooInstance.init("-uLj2KEuibEGl0o5tfqauDA636307126198501918#0f82d535bd87d54e8ffd84cd518ecd2d3f90eb7e", callback);
 
     function callback(message) { 
-      console.log('message: ', message);
       self.temperature = message;
     }
 
