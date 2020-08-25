@@ -9,7 +9,7 @@
   "dependencies": {
     "d3-scale": "^3.2.1",
     "element-ui": "^2.4.11",
-    "highcharts": "^6.2.0",
+    "highcharts": "^7.2.2",
     "highcharts-vue": "^1.2.0",
     "nes.css": "^2.2.1",
     "vue": "^2.5.21",
